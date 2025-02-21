@@ -34,12 +34,12 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT Message, WPARAM wParam, LPARAM lParam) 
 									90,110,25,25,
 									hwnd, (HMENU) 2, NULL, NULL);
 			button = CreateWindow("BUTTON",
-								  	"/",
+								  	"*",
 								  	WS_VISIBLE | WS_CHILD | WS_BORDER,
 									120,110,25,25,
 									hwnd, (HMENU) 3, NULL, NULL);
 			button = CreateWindow("BUTTON",
-								  	"*",
+								  	"/",
 								  	WS_VISIBLE | WS_CHILD | WS_BORDER,
 									150,110,25,25,
 									hwnd, (HMENU) 4, NULL, NULL);
